@@ -11,6 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { cn } from "@/lib/utils"
+import { basePath } from "@/lib/base-path"
 
 const ofertaItems = [
   { label: "Garmaż", href: "#garmaz" },
@@ -52,7 +53,11 @@ export function Header() {
           {/* Logo */}
           <Link href="#" className="flex items-center gap-3">            
             <div className="w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-transparent ring-0">
-              <img src="/LogoGarmaz.jpg" alt="Lęborki Garmaż logo" className="w-full h-full object-cover" />
+              <img
+                src={`${basePath}/LogoGarmaz.jpg`}
+                alt="Lęborki Garmaż logo"
+                className="w-full h-full object-cover"
+              />
             </div>
              <span className={cn(
                "font-serif text-xl font-semibold transition-colors",

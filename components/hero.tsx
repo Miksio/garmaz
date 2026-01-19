@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sparkles } from "lucide-react"
+import { basePath } from "@/lib/base-path"
 
 export function Hero() {
   return (
@@ -9,7 +10,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-food.jpg"
+          src={`${basePath}/images/hero-food.jpg`}
           alt="Pyszne domowe dania z kuchni Lęborki Garmaż"
           fill
           className="object-cover"

@@ -4,16 +4,17 @@ import { useState } from "react"
 import Image from "next/image"
 import { X } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { basePath } from "@/lib/base-path"
 
 const galleryImages = [
-  { src: "/images/gallery-1.jpg", alt: "Bigos - tradycyjny polski przysmak" },
-  { src: "/images/gallery-2.jpg", alt: "Domowe pierogi z cebulką" },
-  { src: "/images/gallery-3.jpg", alt: "Dania w słoikach" },
-  { src: "/images/gallery-4.jpg", alt: "Kotlet schabowy z ziemniakami" },
-  { src: "/images/gallery-5.jpg", alt: "Gołąbki w sosie pomidorowym" },
-  { src: "/images/gallery-6.jpg", alt: "Żurek z kiełbasą" },
-  { src: "/images/gallery-7.jpg", alt: "Świąteczny karp" },
-  { src: "/images/gallery-8.jpg", alt: "Rosół z domowym makaronem" },
+  { src: `${basePath}/images/gallery-1.jpg`, alt: "Bigos - tradycyjny polski przysmak" },
+  { src: `${basePath}/images/gallery-2.jpg`, alt: "Domowe pierogi z cebulką" },
+  { src: `${basePath}/images/gallery-3.jpg`, alt: "Dania w słoikach" },
+  { src: `${basePath}/images/gallery-4.jpg`, alt: "Kotlet schabowy z ziemniakami" },
+  { src: `${basePath}/images/gallery-5.jpg`, alt: "Gołąbki w sosie pomidorowym" },
+  { src: `${basePath}/images/gallery-6.jpg`, alt: "Żurek z kiełbasą" },
+  { src: `${basePath}/images/gallery-7.jpg`, alt: "Świąteczny karp" },
+  { src: `${basePath}/images/gallery-8.jpg`, alt: "Rosół z domowym makaronem" },
 ]
 
 export function Gallery() {
@@ -51,7 +52,7 @@ export function Gallery() {
                 index === 3 && "lg:aspect-[2/1]"
               )}>
                 <Image
-                  src={image.src || "/placeholder.svg"}
+                  src={image.src || `${basePath}/placeholder.svg`}
                   alt={image.alt}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -86,7 +87,7 @@ export function Gallery() {
           </button>
           <div className="relative w-full max-w-4xl aspect-video">
             <Image
-              src={selectedImage || "/placeholder.svg"}
+              src={selectedImage || `${basePath}/placeholder.svg`}
               alt="Powiększony obraz"
               fill
               className="object-contain"

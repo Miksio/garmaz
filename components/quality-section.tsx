@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MapPin } from "lucide-react"
+import { basePath } from "@/lib/base-path"
 
 export function QualitySection() {
   return (
@@ -35,7 +36,7 @@ export function QualitySection() {
           <div className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/quality-kitchen.jpg"
+                src={`${basePath}/images/quality-kitchen.jpg`}
                 alt="Witryna z domowymi daniami w Lęborki Garmaż"
                 fill
                 className="object-cover"

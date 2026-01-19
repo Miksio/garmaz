@@ -10,6 +10,9 @@ const nextConfig = {
   basePath: "/garmaz",
   assetPrefix: "/garmaz/",
   trailingSlash: true,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/garmaz",
+  },
 }
 
 export default nextConfig
