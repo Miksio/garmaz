@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Instagram, Facebook, Phone, Mail, MapPin } from "lucide-react"
+import { basePath } from "@/lib/base-path"
 
 const quickLinks = [
   { label: "Garmaż", href: "#garmaz" },
@@ -23,8 +24,12 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="#" className="flex items-center gap-2 mb-5">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-serif font-bold text-lg">L</span>
+              <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-transparent ring-0">
+                <img
+                  src={`${basePath}/LogoGarmaz.jpg`}
+                  alt="Lęborki Garmaż logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="font-serif text-xl font-semibold text-card">
                 Lęborki Garmaż
