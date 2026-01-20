@@ -22,8 +22,8 @@ const ofertaItems = [
 
 const navItems = [
   { label: "Strona główna", href: "#" },
-  { label: "Lokalizacja", href: "#Lokalizacja" },  
-  { label: "Kontakt", href: "#kontakt" }, 
+  { label: "Lokalizacja", href: "#sklepy" },
+  { label: "Kontakt", href: "#kontakt" },
 ]
 
 export function Header() {
