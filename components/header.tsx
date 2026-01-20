@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, ChevronDown } from "lucide-react"
+import { Menu, X, ChevronDown, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -114,6 +114,20 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
+            {/* Phone Number CTA */}
+            <a
+              href="tel:+48598624890"
+              className={cn(
+                "ml-2 flex items-center gap-2 px-4 py-2 rounded-full font-semibold text-sm transition-all",
+                isScrolled 
+                  ? "bg-primary text-primary-foreground hover:bg-primary/90" 
+                  : "bg-card text-foreground hover:bg-card/90"
+              )}
+            >
+              <Phone className="w-4 h-4" />
+              <span className="hidden xl:inline">+48 59 862 48 90</span>
+              <span className="xl:hidden">Zadzwoń</span>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
