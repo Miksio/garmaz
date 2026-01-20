@@ -51,7 +51,7 @@ export function Hero() {
               size="lg"
               className="rounded-full px-8 text-base font-medium border-card/30 text-card hover:bg-card/10 hover:text-card bg-transparent"
             >
-              <Link href="#Lokalizacja">
+              <Link href="#sklepy">
                 Znajdź nas
               </Link>
             </Button>
