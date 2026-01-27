@@ -9,8 +9,8 @@ const _dmSans = DM_Sans({ subsets: ["latin", "latin-ext"] });
 const _playfairDisplay = Playfair_Display({ subsets: ["latin", "latin-ext"] });
 
 export const metadata: Metadata = {
-  title: 'Lęborki Garmaż - Świeże dania prosto z naszej kuchni',
-  description: 'Lęborki Garmaż - lokalna marka oferująca świeże, domowe dania przygotowywane codziennie z najwyższej jakości składników. Garmaż, dania w słoikach, catering i oferta świąteczna.',
+  title: 'Lęborski Garmaż - Świeże dania prosto z naszej kuchni',
+  description: 'Lęborski Garmaż - lokalna marka oferująca świeże, domowe dania przygotowywane codziennie z najwyższej jakości składników. Garmaż, dania w słoikach, catering i oferta świąteczna.',
   generator: 'v0.app',
   keywords: ['garmaż', 'dania gotowe', 'kuchnia polska', 'Lębork', 'catering', 'dania w słoikach'],
    icons: {

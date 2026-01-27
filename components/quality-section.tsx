@@ -16,7 +16,7 @@ export function QualitySection() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
               <p>
-                W Lęborki Garmaż wierzymy, że dobre jedzenie to podstawa szczęśliwego życia. 
+                W Lęborski Garmaż wierzymy, że dobre jedzenie to podstawa szczęśliwego życia. 
                 Dlatego każdego dnia wstajemy przed świtem, by przygotować dla Ciebie 
                 posiłki, które smakują jak domowe.
               </p>
@@ -37,7 +37,7 @@ export function QualitySection() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src={`${basePath}/images/quality-kitchen.jpg`}
-                alt="Witryna z domowymi daniami w Lęborki Garmaż"
+                alt="Witryna z domowymi daniami w Lęborski Garmaż"
                 fill
                 className="object-cover"
               />

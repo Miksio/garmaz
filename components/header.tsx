@@ -55,7 +55,7 @@ export function Header() {
             <div className="w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-transparent ring-0">
               <img
                 src={`${basePath}/LogoGarmaz.jpg`}
-                alt="Lęborki Garmaż logo"
+                alt="Lęborski Garmaż logo"
                 className="w-full h-full object-cover"
               />
             </div>

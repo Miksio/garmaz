@@ -11,7 +11,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src={`${basePath}/images/hero-food.jpg`}
-          alt="Pyszne domowe dania z kuchni Lęborki Garmaż"
+          alt="Pyszne domowe dania z kuchni Lęborski Garmaż"
           fill
           className="object-cover"
           priority
