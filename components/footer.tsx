@@ -27,12 +27,12 @@ export function Footer() {
               <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-transparent ring-0">
                 <img
                   src={`${basePath}/LogoGarmaz.jpg`}
-                  alt="Lęborki Garmaż logo"
+                  alt="Lęborski Garmaż logo"
                   className="w-full h-full object-cover"
                 />
               </div>
               <span className="font-serif text-xl font-semibold text-card">
-                Lęborki Garmaż
+                Lęborski Garmaż
               </span>
             </Link>
             <p className="text-card/70 text-sm leading-relaxed">
@@ -46,7 +46,7 @@ export function Footer() {
             <h4 className="font-serif text-lg font-semibold mb-5">Kontakt</h4>
             <div className="space-y-4">
               <div>
-                <p className="text-card font-medium mb-1">Lęborki Garmaż Sp. z o.o.</p>
+                <p className="text-card font-medium mb-1">Lęborski Garmaż Sp. z o.o.</p>
               </div>
               <div className="flex items-start gap-3 text-card/70 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
@@ -60,8 +60,8 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3 text-card/70 text-sm">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <a href="mailto:kontakt@leborkigarmaz.pl" className="hover:text-primary transition-colors">
-                  kontakt@leborkigarmaz.pl
+                <a href="mailto:kontakt@leborskigarmaz.pl" className="hover:text-primary transition-colors">
+                  kontakt@leborskigarmaz.pl
                 </a>
               </div>
             </div>
@@ -127,7 +127,7 @@ export function Footer() {
       <div className="border-t border-card/10">
         <div className="container mx-auto px-4 lg:px-8 py-5">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-card/50 text-xs">
-            <p>© 2026 Lęborki Garmaż. Wszelkie prawa zastrzeżone.</p>
+            <p>© 2026 Lęborski Garmaż. Wszelkie prawa zastrzeżone.</p>
             <div className="flex items-center gap-4">
               <Link href="#rodo" className="hover:text-card transition-colors">
                 Polityka prywatności
