@@ -57,14 +57,7 @@ export function Hero() {
             </Button>
           </div>
         </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-        <div className="w-6 h-10 border-2 border-card/50 rounded-full flex items-start justify-center p-2">
-          <div className="w-1.5 h-1.5 bg-card rounded-full animate-bounce" />
-        </div>
-      </div>
+      </div>      
     </section>
   )
 }
